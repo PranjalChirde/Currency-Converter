@@ -1,16 +1,52 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and minimal currency converter built with **React + Vite** and styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [View Live on GitHub Pages](https://pranjalchirde.github.io/Currency-Converter/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Convert between 150+ world currencies
+- 🔄 Swap currencies instantly
+- 📡 Live exchange rates via [fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api)
+- ⚡ Built with Vite for blazing-fast performance
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Tech | Purpose |
+|------|---------|
+| React 19 | UI Framework |
+| Vite | Build Tool |
+| Tailwind CSS | Styling |
+| Currency API | Live exchange rates |
+
+## 📦 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── App.jsx              # Main app component
+├── Components/
+│   └── InputBox.jsx     # Reusable currency input component
+├── Hooks/
+│   └── useCurrencyInfo.js  # Custom hook for fetching rates
+└── main.css             # Global styles
+```
+
+## 📄 License
+
+MIT © [Pranjal Chirde](https://github.com/PranjalChirde)
